@@ -3,6 +3,11 @@
 @tailwind utilities;
 @import './modal.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+}
 
 body, html {
   background-color: ghostwhite;
@@ -15,31 +20,3 @@ body, html {
   transition: ease-in 300ms;
   transform: rotatey(360deg);
 }
-
-
-/* a {
-  color: inherit;
-  text-decoration: inherit; */
-  /* &:hover {
-    color: inherit;
-    text-decoration: inherit;
-  } */
-  /* }  */
-  
-  
-  /* .skills {
-    text-align: center;
-  }
-  
-  .skill_list {
-   display: flex;
-   justify-content: center;
-  } */
-  
-  /* .icon {
-   margin: 0 10px; */
-    /* img {
-      height: 5rem;
-      &
-    } */
-  /* } */

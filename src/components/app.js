@@ -17,10 +17,6 @@ class App extends Component {
               modern web development.
             </p>
           </div>
-          <div className="skills mb-5">
-            <h2>Skills</h2>
-            <Skills />
-          </div>
           <div className="projects mb-5">
             <h2>Projects</h2>
             <ProjectList projects={projects} />
@@ -29,6 +25,10 @@ class App extends Component {
                 <Project project={project} key={index} />
               ))}
             </div> */}
+          </div>
+          <div className="skills mb-5">
+            <h2>Skills</h2>
+            <Skills />
           </div>
         </div>
       </div>

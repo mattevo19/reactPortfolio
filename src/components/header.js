@@ -4,7 +4,7 @@ import Link from './link'
 export default class Header extends Component {
   render() {
     return (
-      <div className="py-4 mb-3 bg-purple-600	text-purple-100 rounded-b-lg ">
+      <div className="max-w-screen-lg mx-auto px-4 p-4 mb-3">
         <div className="navbar">
           <ul className="flex justify-center sm:justify-end mb-4 sm:mb-0">
             <li className="px-2">
@@ -21,9 +21,12 @@ export default class Header extends Component {
             </li>
           </ul>
         </div>
-        <h1>
-          Matt Evans <br /> Developer Portfolio
-        </h1>
+        <div className='text-left'>
+          <h1>
+            Matt Evans
+          </h1>
+          <h2>Developer Portfolio</h2>
+        </div>
       </div>
     )
   }
