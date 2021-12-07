@@ -11,17 +11,17 @@ class App extends Component {
       <div>
         <Header />
         <div className="max-w-screen-lg mx-auto px-4">
-          <div class="about mb-5">
+          <div className="about mb-5">
             <p>
               Hi, I’m Matt. I’m an Ruby on rails and React Expert with a deep interest in
               modern web development.
             </p>
           </div>
-          <div class="skills mb-5">
+          <div className="skills mb-5">
             <h2>Skills</h2>
             <Skills />
           </div>
-          <div class="projects mb-5">
+          <div className="projects mb-5">
             <h2>Projects</h2>
             <ProjectList projects={projects} />
             {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-5">

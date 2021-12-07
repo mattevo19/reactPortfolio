@@ -39,7 +39,7 @@ class Project extends Component {
 
   render() {
     return (
-      <div className="card rounded-2xl border-2 border-solid border-black border-opacity-100 overflow-auto transition duration-500 ease-out">
+      <div className="card rounded-2xl border-2 border-solid border-black border-opacity-100 overflow-auto transition duration-500 ease-out hover:scale-150">
         <img
           src={this.props.project.imgUrl}
           alt={this.props.project.title}

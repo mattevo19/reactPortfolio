@@ -1,75 +1,83 @@
-/* 
-.app {
-  // text-align: center;
-  // display: flex;
-  // justify-content: center;
-  // margin-top: 2rem;
 
-  // text-center flex justify-center mt-8
-}
-//
-
-.grid {
-  // max-width: fit-content;
-  // display: grid;
-  // grid-template-columns: repeat(2, minmax(0, 1fr));
-  // grid-gap: 2rem;
-
-  // play around with max-width and grid gap
-  // max-w-full grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 9px 4px #b0a9a9bd;
+  cursor: pointer;
 }
 
-.card {
-  // width: 30vw;
-  // border: 0.1rem solid black;
-  // border-radius: 0.2rem;
-  // transition: 200ms ease-in;
-
-  // max-w-md or md:max-w-lg rounded-lg border-solid border-black
-  // https://tailwindcss.com/docs/transition-property
-  &:hover {
-    transform: scale(1.02);
-    box-shadow: 2px 2px 9px 4px #b0a9a9bd;
-    cursor: pointer;
-  }
-}
-
-// .card_body {
-//   img {
-//     height: 30vh;
-//     width: 100%;
-//     object-fit: cover;
-//   }
-//   p {
-//     margin: 0.2rem;
-//   }
-// }
 
 .m_btn_pos {
   display: flex;
   justify-content: flex-end;
   position: sticky;
   top: 8px;
-  img {
-    height: 30px;
-  }
+  
+}
+
+.m_btn_pos img {
+  height: 30px;
 }
 
 .m_body {
   text-align: center;
   height: 89%;
-  img {
-    height: 22rem;
-    width: 90%;
-    object-fit: cover;
-    margin: auto;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
+}
+
+.m_body img {
+  height: 22rem;
+  width: 90%;
+  object-fit: cover;
+  margin: auto;
+}
+
+.m_body a {
+  text-decoration: none;
+  color: black;
 }
 
 .m_btn {
-   margin-right: 0.1rem 0 0 0.1rem ;
+  margin-right: 0.1rem 0 0 0.1rem ;
+}
+
+/* .card_body {
+  img {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  p {
+    margin: 0.2rem;
+  }
 } */
+
+/* .app {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 2rem;
+  text-center flex justify-center mt-8
+} */
+
+
+/* .grid {
+  display: grid;
+  max-width: fit-content;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+} */
+
+  /* play around with max-width and grid gap */
+  /* max-w-full grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 */
+
+
+/* .card {
+  width: 30vw;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+  transition: 200ms ease-in; */
+
+  /* max-w-md or md:max-w-lg rounded-lg border-solid border-black */
+  /* https://tailwindcss.com/docs/transition-property */
+  /* & */
+/* } */

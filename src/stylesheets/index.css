@@ -4,37 +4,42 @@
 @import './modal.css';
 
 
-/* body, html {
+body, html {
   background-color: ghostwhite;
   margin: 0;
   text-align: center;
 }
 
-// .skills {
-//   text-align: center;
-// }
 
-.skill_list {
-  // display: flex;
-  // justify-content: center;
+.skill_list .icon:hover {
+  transition: ease-in 300ms;
+  transform: rotatey(360deg);
 }
 
-.icon {
-  // margin: 0 10px;
-  img {
-    // height: 5rem;
-    &:hover {
-      transition: ease-in 300ms;
-      transform: rotatey(360deg);
-    }
-  }
-}
 
-a {
+/* a {
   color: inherit;
-  text-decoration: inherit;
-  &:hover {
+  text-decoration: inherit; */
+  /* &:hover {
     color: inherit;
     text-decoration: inherit;
+  } */
+  /* }  */
+  
+  
+  /* .skills {
+    text-align: center;
   }
-} */
+  
+  .skill_list {
+   display: flex;
+   justify-content: center;
+  } */
+  
+  /* .icon {
+   margin: 0 10px; */
+    /* img {
+      height: 5rem;
+      &
+    } */
+  /* } */
