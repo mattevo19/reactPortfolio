@@ -11,11 +11,11 @@ class App extends Component {
       <div>
         <Header />
         <div className="max-w-screen-lg mx-auto px-4">
-          <div className="mb-5">
+          <div className="my-8">
             <h2 className='text-base md:text-lg mb-2 md:mb-5'>Projects</h2>
             <ProjectList projects={projects} />
           </div>
-          <div className="mb-5">
+          <div className="pt-4">
             <h2 className='text-base md:text-lg mb-2 md:mb-5'>Skills</h2>
             <Skills />
           </div>

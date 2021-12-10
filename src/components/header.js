@@ -4,8 +4,8 @@ import Link from './link'
 export default class Header extends Component {
   render() {
     return (
-      <div className="max-w-screen-lg mx-auto px-4 mb-3">
-        <ul className="flex float-right justify-center sm:justify-end mb-4 sm:mb-0">
+      <div className="max-w-screen-lg mx-auto mb-4 px-4 pt-4">
+        <ul className="flex float-right mb-4 sm:mb-0">
           <li className="mx-2 bb">
             <Link link="https://github.com/mattevo19" name="Github" />
           </li>
@@ -20,10 +20,10 @@ export default class Header extends Component {
           </li>
         </ul>
         <div className='text-left'>
-          <h1 className='text-sm md:text-2xl'>
+          <h1 className='md:text-2xl'>
             Matt Evans
           </h1>
-          <h3 className='text-sm md:text-2xl'>Fullstack Developer / Berlin</h3>
+          <h3>Fullstack Developer / Berlin</h3>
         </div>
       </div>
     )
