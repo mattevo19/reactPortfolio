@@ -12,21 +12,21 @@ import sass_icon from '../assets/images/sass.png'
 export default class Skills extends Component {
   render() {
     return (
-      <div className="skill_list flex justify-center mb-5">
+      <div className="flex justify-center mb-5">
         <span className="icon mx-2">
-          <img className="w-12" src={rails_icon} alt="rails icon" />
+          <img className="w-12 invert" src={rails_icon} alt="rails icon" />
         </span>
         <span className="icon mx-2">
           <img className="w-12" src={react_icon} alt="react icon" />
         </span>
         <span className="icon mx-2">
-          <img className="w-12" src={redux_icon} alt="redux icon" />
+          <img className="w-12 invert" src={redux_icon} alt="redux icon" />
         </span>
         <span className="icon mx-2">
           <img className="w-12" src={js_icon} alt="js icon" />
         </span>
         <span className="icon mx-2">
-          <img className="w-12" src={git_icon} alt="git icon" />
+          <img className="w-12 invert" src={git_icon} alt="git icon" />
         </span>
         <span className="icon mx-2">
           <img className="w-12" src={html_icon} alt="html icon" />

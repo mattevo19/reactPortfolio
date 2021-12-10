@@ -5,14 +5,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-h1 {
+h1, h2 {
   font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.bb:hover {
+  border-bottom: white 0.5px solid;
 }
 
 body, html {
-  background-color: ghostwhite;
+  background-color:black;
   margin: 0;
   text-align: center;
+  height: 100vh;
+  color: white;
 }
 
 
