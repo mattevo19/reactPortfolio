@@ -16,15 +16,11 @@
 }
 
 .m_body img {
-  height: 22rem;
-  width: 90%;
-  object-fit: cover;
   margin: auto;
 }
 
 .m_body a {
   text-decoration: none;
-  color: black;
 }
 
 .m_btn {
