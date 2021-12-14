@@ -26,6 +26,9 @@ body, html {
   color: white;
 }
 
+.width_fit {
+  width: fit-content;
+}
 
 .skill_list .icon:hover {
   transition: ease-in 300ms;

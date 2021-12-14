@@ -44,19 +44,6 @@ const projects = [
     ],
   },
   {
-    title: 'PureDough',
-    link: 'http://puredough-complete.herokuapp.com/',
-    imgUrl:
-      'https://res.cloudinary.com/mge19/image/upload/v1637523782/PureDough_Thumb_mnchmx.jpg',
-    desc: 'A freelance project creating a landing page for an early stage start up.',
-    badges: [
-      'Ruby','Rails','HTML','Css','Sass'
-    ],
-    descImg: [
-      'https://res.cloudinary.com/mge19/image/upload/v1639346568/dough_zf8irj.png',
-    ],
-  },
-  {
     title: 'GigFunding FAQ Page',
     link: 'https://faq-gigfunding.herokuapp.com/',
     imgUrl:
@@ -68,6 +55,19 @@ const projects = [
     descImg: [
       'https://res.cloudinary.com/mge19/image/upload/v1639489248/gig1_qdxfxe.png',
       'https://res.cloudinary.com/mge19/image/upload/v1639489248/gig2_vq86jf.png'
+    ],
+  },
+  {
+    title: 'PureDough',
+    link: 'http://puredough-complete.herokuapp.com/',
+    imgUrl:
+      'https://res.cloudinary.com/mge19/image/upload/v1637523782/PureDough_Thumb_mnchmx.jpg',
+    desc: 'A freelance project creating a landing page for an early stage start up.',
+    badges: [
+      'Ruby','Rails','HTML','Css','Sass'
+    ],
+    descImg: [
+      'https://res.cloudinary.com/mge19/image/upload/v1639346568/dough_zf8irj.png',
     ],
   },
   // {
