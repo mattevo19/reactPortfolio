@@ -58,8 +58,8 @@ class Project extends Component {
             </button>
           </div>
           <div className="m_body" onDoubleClick={this.handleCloseModal}>
-            <h1>{this.props.project.title}</h1>
-            <p>{this.props.project.desc}</p>
+            <h1 className='mb-4'>{this.props.project.title}</h1>
+            <p className='mb-4'>{this.props.project.desc}</p>
 
             <Badge badges={this.props.project.badges} />
 
