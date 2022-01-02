@@ -14,7 +14,7 @@ export default class Header extends Component {
           </li>
           <li className="mx-2 bb">
             <Link
-              link="https://drive.google.com/file/d/13Jk-srfxJxZoOTgxN8Fd1VCf3pjBnUOx/view?usp=sharing"
+              link="https://drive.google.com/file/d/15FBdBLkvx4O_A8QfcNC-AOdXCZmUpdO9/view?usp=sharing"
               name="CV"
             />
           </li>
