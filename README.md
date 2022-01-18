@@ -1,3 +1,5 @@
+Node version - 14.5.0 // use nvm ls to check installed versions
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

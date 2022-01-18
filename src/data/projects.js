@@ -44,6 +44,20 @@ const projects = [
     ],
   },
   {
+    title: 'Reddit Feed',
+    link: 'https://redditfeedreact.herokuapp.com/',
+    imgUrl:
+      '',
+    desc: 'Able to search Reddit  for subreddits and shows the current feed',
+    badges: [
+      'React','CSS'
+    ],
+    descImg: [
+      'https://res.cloudinary.com/mge19/image/upload/v1641464159/Front_PAGE_pqan5m.png',
+      'https://res.cloudinary.com/mge19/image/upload/v1641464159/Search_PAGE_i50tuw.png'
+    ],
+  },
+  {
     title: 'GigFunding FAQ Page',
     link: 'https://faq-gigfunding.herokuapp.com/',
     imgUrl:
@@ -70,19 +84,6 @@ const projects = [
       'https://res.cloudinary.com/mge19/image/upload/v1639346568/dough_zf8irj.png',
     ],
   },
-  // {
-  //   title: '...',
-  //   link: 'https://football-bay-390.herokuapp.com/',
-  //   imgUrl:
-  //     'https://res.cloudinary.com/mge19/image/upload/v1637523782/GigFunding_Thumb_iplrgg.jpg',
-  //   desc: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor',
-  //   badges: [
-  //     'ruby','rails','javascript','postgresql'
-  //   ],
-  //   descImg: [
-  //     'https://res.cloudinary.com/mge19/image/upload/v1637523782/GigFunding_Thumb_iplrgg.jpg',
-  //   ],
-  // },
 ]
 
 export default projects
