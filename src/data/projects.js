@@ -34,7 +34,7 @@ const projects = [
     title: 'React Chat',
     link: 'http://chat-react-rails.herokuapp.com',
     imgUrl:
-      'https://res.cloudinary.com/mge19/image/upload/v1637523781/ReactChat_Thumb_o6l1vq.jpg',
+    'https://res.cloudinary.com/mge19/image/upload/v1637523781/ReactChat_Thumb_o6l1vq.jpg',
     desc: 'Slack style chat with the options of selecting different rooms.',
     badges: [
       'React','Redux', 'Ruby', 'Rails', 'API','Devise','Sass'
@@ -43,6 +43,19 @@ const projects = [
       'https://res.cloudinary.com/mge19/image/upload/v1639346447/chat_e9fhhe.png'
     ],
   },
+    {
+      title: 'Anime Hunter',
+      link: 'https://animehunter.herokuapp.com/',
+      imgUrl:
+        '',
+      desc: '',
+      badges: [
+        'React', 'Hooks'
+      ],
+      descImg: [
+        '',
+      ],
+    },
   {
     title: 'Reddit Feed',
     link: 'https://redditfeedreact.herokuapp.com/',
