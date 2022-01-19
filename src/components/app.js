@@ -4,6 +4,7 @@ import Skills from './skills'
 import ProjectList from './projectList'
 
 import projects from '../data/projects.js'
+import About from './about'
 
 class App extends Component {
   render() {
@@ -12,8 +13,7 @@ class App extends Component {
         <Header />
         <div className="max-w-screen-lg mx-auto px-4">
           <div className="my-4">
-            <img className='rounded-full w-40 m-auto mb-4' src="https://res.cloudinary.com/mge19/image/upload/v1642505230/IMG_20191004_082946_039_mixidh.jpg" alt="avatar" />
-            <p className='mb-4'>I'm a Junior full stack developer currently living in berlin.<br />My current tech includes React for the Frontend, Rails for the Backend, and Heroku for hosting.<br />When I'm not coding I can usually be found climbing or out exploring on my bike.</p>
+            <About />
             <h2 className='text-base md:text-lg mb-2 md:mb-5'>Projects</h2>
             <ProjectList projects={projects} />
           </div>
