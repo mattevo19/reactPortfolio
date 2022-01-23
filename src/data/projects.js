@@ -43,33 +43,33 @@ const projects = [
       'https://res.cloudinary.com/mge19/image/upload/v1639346447/chat_e9fhhe.png'
     ],
   },
-    // {
-    //   title: 'Anime Hunter',
-    //   link: 'https://animehunter.herokuapp.com/',
-    //   imgUrl:
-    //     '',
-    //   desc: '',
-    //   badges: [
-    //     'React', 'Hooks'
-    //   ],
-    //   descImg: [
-    //     '',
-    //   ],
-    // },
-  // {
-  //   title: 'Reddit Feed',
-  //   link: 'https://redditfeedreact.herokuapp.com/',
-  //   imgUrl:
-  //     '',
-  //   desc: 'Able to search Reddit  for subreddits and shows the current feed',
-  //   badges: [
-  //     'React','CSS'
-  //   ],
-  //   descImg: [
-  //     'https://res.cloudinary.com/mge19/image/upload/v1641464159/Front_PAGE_pqan5m.png',
-  //     'https://res.cloudinary.com/mge19/image/upload/v1641464159/Search_PAGE_i50tuw.png'
-  //   ],
-  // },
+    {
+      title: 'Anime Hunter',
+      link: 'https://animehunter.herokuapp.com/',
+      imgUrl:
+        'https://res.cloudinary.com/mge19/image/upload/v1642967379/AnimeHunter_vs5izf.jpg',
+      desc: 'Using the Jikan API to search MyAnimeList',
+      badges: [
+        'React', 'Hooks', 'Tailwind'
+      ],
+      descImg: [
+        'https://res.cloudinary.com/mge19/image/upload/v1642955766/anime_mo3nd4.png',
+      ],
+    },
+  {
+    title: 'Reddit Feed',
+    link: 'https://redditfeedreact.herokuapp.com/',
+    imgUrl:
+      'https://res.cloudinary.com/mge19/image/upload/v1642967379/RedditPicker_td0y7l.jpg',
+    desc: 'Able to search Reddit  for subreddits and shows the current feed',
+    badges: [
+      'React', 'Hooks','CSS'
+    ],
+    descImg: [
+      'https://res.cloudinary.com/mge19/image/upload/v1641464159/Front_PAGE_pqan5m.png',
+      'https://res.cloudinary.com/mge19/image/upload/v1641464159/Search_PAGE_i50tuw.png'
+    ],
+  },
   {
     title: 'GigFunding FAQ Page',
     link: 'https://faq-gigfunding.herokuapp.com/',
