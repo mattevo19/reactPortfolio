@@ -3,7 +3,6 @@
   justify-content: flex-end;
   position: sticky;
   top: 8px;
-  
 }
 
 .m_btn_pos img {
@@ -24,5 +23,5 @@
 }
 
 .m_btn {
-  margin-right: 0.1rem 0 0 0.1rem ;
+  margin-right: 0.1rem 0 0 0.1rem;
 }

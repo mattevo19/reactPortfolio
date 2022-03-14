@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import rails_icon from '../assets/images/rails.png'
-import react_icon from '../assets/images/react.png'
-import redux_icon from '../assets/images/redux.png'
-import js_icon from '../assets/images/js.png'
-import git_icon from '../assets/images/git.png'
-import html_icon from '../assets/images/html.png'
-import css_icon from '../assets/images/css.png'
-import sass_icon from '../assets/images/sass.png'
+import rails_icon from "../assets/images/rails.png";
+import react_icon from "../assets/images/react.png";
+import redux_icon from "../assets/images/redux.png";
+import js_icon from "../assets/images/js.png";
+import git_icon from "../assets/images/git.png";
+import html_icon from "../assets/images/html.png";
+import css_icon from "../assets/images/css.png";
+import sass_icon from "../assets/images/sass.png";
 
 export default class Skills extends Component {
   render() {
@@ -38,6 +38,6 @@ export default class Skills extends Component {
           <img className="w-12" src={sass_icon} alt="sass icon" />
         </span>
       </div>
-    )
+    );
   }
 }

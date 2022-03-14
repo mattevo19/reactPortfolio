@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Project from './project'
+import React, { Component } from "react";
+import Project from "./project";
 
 export default class ProjectList extends Component {
   render() {
@@ -9,6 +9,6 @@ export default class ProjectList extends Component {
           <Project project={project} key={index} />
         ))}
       </div>
-    )
+    );
   }
 }
