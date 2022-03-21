@@ -10,9 +10,9 @@ class About extends Component {
           alt="avatar"
         />
         <p className="mb-4">
-          I'm a Junior full stack developer currently living in berlin.
+          I'm a Junior full stack developer currently living in Berlin.
           <br />
-          My current tech includes React for the Frontend, Rails for the
+          My current tech stack includes React for the Frontend, Rails for the
           Backend, and Heroku for hosting.
           <br />
           When I'm not coding I can usually be found climbing or out exploring
