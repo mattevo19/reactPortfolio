@@ -30,17 +30,6 @@ const projects = [
     ],
   },
   {
-    title: "React Airlines",
-    link: "https://reactairlines.herokuapp.com/",
-    imgUrl: "",
-    desc: "Using checkboxes to filter airlines by alliances. Also using hooks to render different amount of cards depending on screen size.",
-    badges: ["React", "Hooks"],
-    descImg: [
-      "https://res.cloudinary.com/mge19/image/upload/v1647270903/main_uvg6vp.png",
-      "https://res.cloudinary.com/mge19/image/upload/v1647270902/Mobile_gaaowg.png",
-    ],
-  },
-  {
     title: "Book Blog",
     link: "http://steffen-blog.herokuapp.com/",
     imgUrl:
@@ -61,17 +50,16 @@ const projects = [
     ],
   },
   {
-    title: "React Chat",
-    link: "http://chat-react-rails.herokuapp.com",
+    title: "PureDough",
+    link: "http://puredough-complete.herokuapp.com/",
     imgUrl:
-      "https://res.cloudinary.com/mge19/image/upload/v1637523781/ReactChat_Thumb_o6l1vq.jpg",
-    desc: "Slack style chat with the options of selecting different rooms.",
-    badges: ["React", "Redux", "Ruby", "Rails", "API", "Devise", "Sass"],
+      "https://res.cloudinary.com/mge19/image/upload/v1637523782/PureDough_Thumb_mnchmx.jpg",
+    desc: "A freelance project creating a landing page for an early stage start up.",
+    badges: ["Ruby", "Rails", "HTML", "Css", "Sass"],
     descImg: [
-      "https://res.cloudinary.com/mge19/image/upload/v1639346447/chat_e9fhhe.png",
+      "https://res.cloudinary.com/mge19/image/upload/v1639346568/dough_zf8irj.png",
     ],
   },
-
   {
     title: "Anime Hunter",
     link: "https://animehunter.herokuapp.com/",
@@ -81,6 +69,18 @@ const projects = [
     badges: ["React", "Hooks", "Tailwind"],
     descImg: [
       "https://res.cloudinary.com/mge19/image/upload/v1642955766/anime_mo3nd4.png",
+    ],
+  },
+  {
+    title: "Airlines Filter",
+    link: "https://reactairlines.herokuapp.com/",
+    imgUrl:
+      "https://res.cloudinary.com/mge19/image/upload/v1647891148/Airlines_filter_axaiua.jpg",
+    desc: "Using checkboxes to filter airlines by alliances. Also using hooks to render different amount of cards depending on screen size.",
+    badges: ["React", "Hooks"],
+    descImg: [
+      "https://res.cloudinary.com/mge19/image/upload/v1647270903/main_uvg6vp.png",
+      "https://res.cloudinary.com/mge19/image/upload/v1647270902/Mobile_gaaowg.png",
     ],
   },
   {
@@ -108,14 +108,14 @@ const projects = [
     ],
   },
   {
-    title: "PureDough",
-    link: "http://puredough-complete.herokuapp.com/",
+    title: "React Chat",
+    link: "http://chat-react-rails.herokuapp.com",
     imgUrl:
-      "https://res.cloudinary.com/mge19/image/upload/v1637523782/PureDough_Thumb_mnchmx.jpg",
-    desc: "A freelance project creating a landing page for an early stage start up.",
-    badges: ["Ruby", "Rails", "HTML", "Css", "Sass"],
+      "https://res.cloudinary.com/mge19/image/upload/v1637523781/ReactChat_Thumb_o6l1vq.jpg",
+    desc: "Slack style chat with the options of selecting different rooms.",
+    badges: ["React", "Redux", "Ruby", "Rails", "API", "Devise", "Sass"],
     descImg: [
-      "https://res.cloudinary.com/mge19/image/upload/v1639346568/dough_zf8irj.png",
+      "https://res.cloudinary.com/mge19/image/upload/v1639346447/chat_e9fhhe.png",
     ],
   },
 ];
